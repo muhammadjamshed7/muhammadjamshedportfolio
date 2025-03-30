@@ -6,8 +6,8 @@ export const Bio = {
   ],
   description:
     "I'm a highly motivated and versatile individual with a strong aptitude for problem-solving and a deep commitment to continuous development. I enjoy tackling complex challenges, analyzing data, and developing effective solutions. I'm a firm believer in lifelong learning and actively pursue opportunities to expand my knowledge and skillset.",
-  github: "https://github.com/anshita005",
-  gmail: "anshitasharma2002@gmail.com",
+  github: "https://github.com/muhammadjamshed7",
+  gmail: "jamshedmsd589@gmail.com",
   resume:
     "https://drive.google.com/file/d/1yJ3b6fvxnM-_1QjCk5x2R-uKIclehEAJ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/muhammad-jamshed-%E2%9C%AA-7ab3b2198/",
@@ -50,12 +50,12 @@ export const skills = [
       },
       {
         name: "Tailwind CSS",
-        image: " https://raw.githubusercontent.com/anshita005/My-Portfolio/main/tailwind-css-logo-png_seeklogo-354675.png",
+        image: " https://raw.githubusercontent.com/Muhammad005/My-Portfolio/main/tailwind-css-logo-png_seeklogo-354675.png",
       },
       {
         name: "Shadcn UI",
         image:
-          "https://raw.githubusercontent.com/anshita005/My-Portfolio/main/shadcn-ui-logo-png_seeklogo-519786.png",
+          "https://raw.githubusercontent.com/Muhammad005/My-Portfolio/main/shadcn-ui-logo-png_seeklogo-519786.png",
       },
    
     ],
@@ -88,7 +88,7 @@ export const skills = [
       },
       {
         name: "Supabase",
-        image: "https://raw.githubusercontent.com/anshita005/My-Portfolio/main/supabase-logo-DCC676FFE2-seeklogo.com.png",
+        image: "https://raw.githubusercontent.com/Muhammad005/My-Portfolio/main/supabase-logo-DCC676FFE2-seeklogo.com.png",
       },
     ],
   },
@@ -99,7 +99,7 @@ export const skills = [
       {
         name: "C++",
         image:
-          "https://raw.githubusercontent.com/anshita005/My-Portfolio/main/c-logo-png_seeklogo-272951.png",
+          "https://raw.githubusercontent.com/Muhammad005/My-Portfolio/main/c-logo-png_seeklogo-272951.png",
       },
       {
         name: "Git",
@@ -129,7 +129,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://raw.githubusercontent.com/anshita005/My-Portfolio/main/alfabeto.png",
+    img: "https://raw.githubusercontent.com/Muhammad005/My-Portfolio/main/alfabeto.png",
     role: "Frontend Engineer Intern",
     company: "Alfabeto Global",
     date: "June 2024 - Sep 2024",
@@ -158,7 +158,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://raw.githubusercontent.com/anshita005/My-Portfolio/refs/heads/main/witkmh24.rj3.webp",
+    img: "https://raw.githubusercontent.com/Muhammad005/My-Portfolio/refs/heads/main/witkmh24.rj3.webp",
     school: "ABES Engineering College",
     date: "Dec 2020 - July 2024",
     grade: " 7.14 CGPA",
@@ -174,7 +174,7 @@ export const projects = [
     description:
       "Built a Job Portal app with React.js, allowing candidates to apply, save jobs, and recruiters to manage listings, with secure authentication via Clerk. Integrated Supabase for real-time data updates and used Redux Toolkit for state management. Designed a responsive, modern UI with ShadCN and Tailwind CSS for cross-device compatibility.",
     image:
-      "https://raw.githubusercontent.com/anshita005/Job-Portal/main/jobportal1.png",
+      "https://raw.githubusercontent.com/Muhammad005/Job-Portal/main/jobportal1.png",
     tags: [
       "React Js",
       "Shadcn UI",
@@ -184,8 +184,8 @@ export const projects = [
       "Clerk",
     ],
     category: "web app",
-    github: "https://github.com/anshita005/Job-Portal",
-    webapp: "https://github.com/anshita005",
+    github: "https://github.com/Muhammad005/Job-Portal",
+    webapp: "https://github.com/Muhammad005",
   },
   {
     id: 12,
@@ -193,7 +193,7 @@ export const projects = [
     description:
       "My Portfolio is a React.js application that serves as an online portfolio to showcase my work, skills, and achievements. It provides an overview of my background, displays my projects, and offers a way to contact me.",
     image:
-      "https://raw.githubusercontent.com/anshita005/My-Portfolio/main/portfolio%20image.png",
+      "https://raw.githubusercontent.com/Muhammad005/My-Portfolio/main/portfolio%20image.png",
     tags: [
       "React Js",
       "HTML5",
@@ -202,8 +202,8 @@ export const projects = [
      
     ],
     category: "web app",
-    github: "https://github.com/anshita005/My-Portfolio",
-    webapp: "https://github.com/anshita005",
+    github: "https://github.com/Muhammad005/My-Portfolio",
+    webapp: "https://github.com/Muhammad005",
   },
   {
     id: 9,
@@ -211,7 +211,7 @@ export const projects = [
     description:
       " SpendWise is a web application designed to streamline expense management and enhance financial tracking system with real-time logging, secure authentication via Express.js, and MongoDB for managing expenses. Designed a responsive UI using Ant Design, ensuring seamless cross-device budgeting and tracking.",
     image:
-      "https://raw.githubusercontent.com/anshita005/SpendWise/main/spendWise3.png",
+      "https://raw.githubusercontent.com/Muhammad005/SpendWise/main/spendWise3.png",
     tags: [
       "React Js",
       "MongoDb",
@@ -223,8 +223,8 @@ export const projects = [
   
     ],
     category: "web app",
-    github: "https://github.com/anshita005/SpendWise",
-    webapp: "https://github.com/anshita005/SpendWise",
+    github: "https://github.com/Muhammad005/SpendWise",
+    webapp: "https://github.com/Muhammad005/SpendWise",
   },
   {
     id: 0,
@@ -232,11 +232,11 @@ export const projects = [
     description:
       "Developed a responsive Gemini platform clone using the Gemini API for real-time data processing, ensuring seamless user interaction. Leveraged React Hooks and Context API for efficient state management and a smoother user experience.",
     image:
-      "https://raw.githubusercontent.com/anshita005/Gemini-Clone-Project/main/Screenshot%202024-11-02%20175452.png",
+      "https://raw.githubusercontent.com/Muhammad005/Gemini-Clone-Project/main/Screenshot%202024-11-02%20175452.png",
     tags: ["React Js", "Javascript", "GeminiAPI", "CSS3"],
     category: "web app",
-    github: "https://github.com/anshita005/Gemini-Clone-Project",
-    webapp: "https://github.com/anshita005/Gemini-Clone-Project",
+    github: "https://github.com/Muhammad005/Gemini-Clone-Project",
+    webapp: "https://github.com/Muhammad005/Gemini-Clone-Project",
   },
   
 ];
