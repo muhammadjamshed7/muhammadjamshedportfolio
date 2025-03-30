@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
-import HeroImg from "../../images/Mee.jpeg";
+// import HeroImg from "../../images/Mee.jpeg";
+import HeroImg from "../../images/Jamshed_profile.jpg"
 import HeroBgAnimation from "../HeroBgAnimation";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -256,7 +257,7 @@ const Hero = () => {
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={HeroImg} alt="Rishav Chanda" />
+                  <Img src={HeroImg} alt="Muhammad Jamshed" />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>

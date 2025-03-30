@@ -1,5 +1,5 @@
 export const Bio = {
-  name: "Anshita Sharma",
+  name: "Muhammad Jamshed",
   roles: [
     "Full Stack Developer",
     "Programmer",
@@ -9,8 +9,8 @@ export const Bio = {
   github: "https://github.com/anshita005",
   gmail: "anshitasharma2002@gmail.com",
   resume:
-    "https://drive.google.com/file/d/1QPN7ns0XUSLrKY_0d8Q53kYFafnwXTIR/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/anshitaharma004",
+    "https://drive.google.com/file/d/1yJ3b6fvxnM-_1QjCk5x2R-uKIclehEAJ/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/muhammad-jamshed-%E2%9C%AA-7ab3b2198/",
 
 };
 

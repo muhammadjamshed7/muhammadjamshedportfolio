@@ -84,7 +84,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Anshita Sharma</Logo>
+        <Logo>Muhammad Jamshed</Logo>
         <div className="flex flex-row gap-1">
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedInIcon />
@@ -106,7 +106,7 @@ const Footer = () => {
         </Nav>
       
       
-        <Copyright>&copy; 2024 Anshita Sharma. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 Muhammad Jamshed. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
