@@ -23,6 +23,12 @@ export const skills = [
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
+        name: "Next Js",
+        image:
+          "https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png",
+
+      },
+      {
         name: "Redux",
         image:
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
@@ -43,18 +49,27 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
       {
+        name:"Stripe API",
+        image:"https://www.ebs.ae/wp-content/uploads/2021/11/Stripe-Logo.png"
+      }
+      ,
+      {
         name: "Bootstrap",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
       {
         name: "Tailwind CSS",
-        image: " https://raw.githubusercontent.com/Muhammad005/My-Portfolio/main/tailwind-css-logo-png_seeklogo-354675.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png",
+      },
+      {
+        name:"Material UI",
+        image:"https://mui.com/static/logo.png",
       },
       {
         name: "Shadcn UI",
         image:
-          "https://raw.githubusercontent.com/Muhammad005/My-Portfolio/main/shadcn-ui-logo-png_seeklogo-519786.png",
+          "https://avatars.githubusercontent.com/u/139895814?s=280&v=4",
       },
    
     ],
@@ -68,7 +83,7 @@ export const skills = [
       },
       {
         name: "Express Js",
-        image:"https://raw.githubusercontent.com/Muhammad005/My-Portfolio/main/expressjs-logo-png-transparent.png",
+        image:"https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png",
       },
   
 
@@ -85,8 +100,8 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
       {
-        name: "Supabase",
-        image: "https://raw.githubusercontent.com/Muhammad005/My-Portfolio/main/supabase-logo-DCC676FFE2-seeklogo.com.png",
+        name: "Sanity.io",
+        image: "https://www.sanity.io/static/images/favicons/apple-icon-180x180.png",
       },
     ],
   },
@@ -95,9 +110,9 @@ export const skills = [
     title: "Others",
     skills: [
       {
-        name: "C++",
+        name: "Python",
         image:
-          "https://raw.githubusercontent.com/Muhammad005/My-Portfolio/main/c-logo-png_seeklogo-272951.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
       },
       {
         name: "Git",
@@ -113,6 +128,11 @@ export const skills = [
         name: "Netlify",
         image:
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+      },
+      {
+        name: "Vercel",
+        image:
+          "https://www.svgrepo.com/show/361653/vercel-logo.svg",
       },
       {
         name: "VS Code",
