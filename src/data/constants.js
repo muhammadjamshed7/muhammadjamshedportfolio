@@ -227,6 +227,26 @@ export const education = [
 
 export const projects = [
   {
+    id: 14,
+    title: "Musketeers Tech Pvt LTD Portfolio Site",
+    description: "Musketeers Tech Pvt LTD Portfolio Site is a web application that showcases the projects and services offered by Musketeers Tech Pvt LTD. It provides an overview of the company's expertise and capabilities in web development, mobile app development, and other technology solutions. The site features a modern design, user-friendly navigation, and responsive layout to ensure a seamless experience across devices. A company which was providing different app of VR and AR technologies. The site also includes a contact form for potential clients to get in touch with the company for inquiries and project proposals.",
+    image: "img/m.png",  // Updated path
+    tags: [
+      "React Js",
+      "Shadcn UI",
+      "Tailwind CSS",
+      "CSS",
+      "Javascript",
+      "React Router",
+      "API Integration",
+      "Sanity.io",
+      "Stripe API",
+      "Payment Integration",
+      "GraphQL",
+    ],
+    category: "web app",
+  },
+  {
     id: 11,
     title: "Crypto DashBoard",
     description: "Crypto Dashboard is a web application that provides real-time data and analytics for various cryptocurrencies...",
