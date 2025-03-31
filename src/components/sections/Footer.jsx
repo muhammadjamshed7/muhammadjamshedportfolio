@@ -103,7 +103,7 @@ const Footer = () => {
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
         </Nav>
-        <Copyright>&copy; 2024 Muhammad Jamshed. All rights reserved.</Copyright>
+        <Copyright>&copy; 2025 Muhammad Jamshed. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
