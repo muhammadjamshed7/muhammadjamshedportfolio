@@ -147,7 +147,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://raw.githubusercontent.com/Muhammad005/My-Portfolio/main/alfabeto.png",
+    img: "img/smartweb.png",
     role: "Cheif Operation Officer",
     company: "SmartWeb Labs Tech",
     date: "Apr 2023 - OCt 2023",
@@ -161,11 +161,11 @@ export const experiences = [
       "Project Management",
     ],
     
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
+    // doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
   {
     id: 5,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
+    img: "img/musk.webp",
     role: "Frontend Developer",
     company: "Musketeers Tech Pvt LTD",
     date: "Oct 2023 - Oct 2024",
@@ -194,7 +194,7 @@ export const experiences = [
   },
   {
     id: 5,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
+    img: "img/aj.png",
     role: "Frontend Developer(Project Lead)",
     company: "AJ Nodes",
     date: "Nov 2024 - Present",
