@@ -282,6 +282,7 @@ const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
+  cursor: pointer;
   background: hsla(271, 100%, 50%, 1);
   background: linear-gradient(
     225deg,
