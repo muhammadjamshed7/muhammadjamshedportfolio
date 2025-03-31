@@ -69,8 +69,7 @@ export const skills = [
       },
       {
         name: "Express Js",
-        image:
-          "data:image/png;base64,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",
+        image:"https://raw.githubusercontent.com/Muhammad005/My-Portfolio/main/expressjs-logo-png-transparent.png",
       },
   
 
@@ -130,51 +129,108 @@ export const experiences = [
   {
     id: 0,
     img: "https://raw.githubusercontent.com/Muhammad005/My-Portfolio/main/alfabeto.png",
-    role: "Frontend Engineer Intern",
-    company: "Alfabeto Global",
-    date: "June 2024 - Sep 2024",
-    desc: "Designed and launched an Exam platform with automated scheduling, result tracking, and student-teacher communication, improving efficiency. Applied React hooks for reusable components and simplified the UI, reducing support tickets by 50%. Implemented backend validation, JWT, and error handling, cutting scheduling errors by 50% and minimizing downtime. Managed version control with Git for smooth collaboration.",
+    role: "Cheif Operation Officer",
+    company: "SmartWeb Labs Tech",
+    date: "Apr 2023 - OCt 2023",
+    desc: " Worked as a Chief Operation Officer at SmartWeb Labs Tech, where I was responsible for overseeing the daily operations of the company, ensuring that all departments were working efficiently and effectively towards our goals. I also played a key role in developing and implementing strategies to improve our services and increase customer satisfaction. I worked closely with the management team to identify areas for improvement and develop solutions to address them. Additionally, I was responsible for managing a team of employees, providing guidance and support to help them achieve their goals.",
     skills: [
-      "ReactJS",
-      "Redux",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "API Integration",
-      "Bootstrap"
+      "Leadership",
+      "Team Management",
+      "Strategic Planning",
+      "Problem Solving",
+      "Communication",
+      "Project Management",
     ],
+    
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
   {
     id: 5,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "Hackoctober Fest'22",
-    date: "Oct 22 - Oct 22",
-    desc: "Contributed to different open-source projects and learn from industry experts",
+    role: "Frontend Developer",
+    company: "Musketeers Tech Pvt LTD",
+    date: "Oct 2023 - Oct 2024",
+    desc: "As a Frontend Developer at Musketeers Tech Pvt LTD, I was responsible for designing and implementing user interfaces for web applications. I collaborated with designers and backend developers to create responsive and visually appealing websites. My role involved writing clean and efficient code using HTML, CSS, and JavaScript frameworks like React.js. I also focused on optimizing website performance and ensuring cross-browser compatibility. Additionally, I participated in code reviews and contributed to the overall improvement of the development process.",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Redux Toolkit",
+      "React Query",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Material UI",
+      "Bootstrap",
+      "React Router",
+      "Next.js",
+      "Stripe API",
+      "Payment Integrations",
+      "Responsive Design",
+      "Cross-Browser Compatibility",
+      "Version Control (Git)",
+      "Problem Solving",
+      "Team Collaboration",
+    ],
+  },
+  {
+    id: 5,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
+    role: "Frontend Developer(Project Lead)",
+    company: "AJ Nodes",
+    date: "Nov 2024 - Present",
+    desc: "As a Frontend Developer and project lead at AJ Nodes, I am responsible for Leading projecting and Development of web applications. I collaborate with Designer, Backend Developer and my frontend Development team. Furthermore doing API Integration and other complex state management in React.js. I also focused on optimizing website performance and ensuring cross-browser compatibility. Additionally, I participated in code reviews and contributed to the overall improvement of the development process.",
+    skills: [
+      "React Js",
+      "Redux",
+      "React Query",
+      "Next.js",
+      "State Management",
+      "API Integration",
+      "Context API",
+      "React Router",
+      "Git and GitHub",
+      "Version Control",
+      "Requriment Analysis",
+      "Problem Solving",
+      "Team Collaboration",
+      "Agile Methodologies",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Material UI",
+      "Bootstrap",
+    ],
   },
 ];
 
 export const education = [
   {
     id: 0,
-    img: "https://raw.githubusercontent.com/Muhammad005/My-Portfolio/refs/heads/main/witkmh24.rj3.webp",
-    school: "ABES Engineering College",
-    date: "Dec 2020 - July 2024",
-    grade: " 7.14 CGPA",
-    desc: "I have completed 4 years and have a CGPA of 7.14 . I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
-    degree: "Bachelor of Technology - BTech, Computer Science",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpOr5__PzRH1rtlfyihKp6QQgf1eIT5_cC04D7oZkQDdbOw80_NCFH01WXQm44JXR0SLc&usqp=CAU",
+    University: "Qurtuba School and College",
+    date: "June 2017 - July 2019",
+    grade: " 83.34%",
+    desc: "I have completed 2 years of Pre-Engineering with a percentage of 83.34%. I have taken courses in Physics, Chemistry, and Mathematics, which have provided me with a strong foundation in these subjects.",
+      degree: "Intermediate - FSc, Pre-Engineering",
+  },
+  {
+    id: 1,
+    img: "https://namal.edu.pk/uploads/logo22869383.png",
+    University: "Namal University Mianwali",
+    date: "sept 2019 - July 2023",
+    grade: " 78.14%",
+    desc: "I have completed 4 years of Computer Science with a percentage of 78.14%. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+  
+    degree:"Bachelor of Science - BS, Computer Science",
   },
 ];
 
 export const projects = [
   {
     id: 11,
-    title: "Job Portal",
-    description:
-      "Built a Job Portal app with React.js, allowing candidates to apply, save jobs, and recruiters to manage listings, with secure authentication via Clerk. Integrated Supabase for real-time data updates and used Redux Toolkit for state management. Designed a responsive, modern UI with ShadCN and Tailwind CSS for cross-device compatibility.",
-    image:
-      "https://raw.githubusercontent.com/Muhammad005/Job-Portal/main/jobportal1.png",
+    title: "Crypto DashBoard",
+    description: "Crypto Dashboard is a web application that provides real-time data and analytics for various cryptocurrencies...",
+    image: "img/2.png",  // Updated path
     tags: [
       "React Js",
       "Shadcn UI",
@@ -184,60 +240,46 @@ export const projects = [
       "Clerk",
     ],
     category: "web app",
-    github: "https://github.com/Muhammad005/Job-Portal",
-    webapp: "https://github.com/Muhammad005",
   },
   {
     id: 12,
-    title: "My Portfolio",
-    description:
-      "My Portfolio is a React.js application that serves as an online portfolio to showcase my work, skills, and achievements. It provides an overview of my background, displays my projects, and offers a way to contact me.",
-    image:
-      "https://raw.githubusercontent.com/Muhammad005/My-Portfolio/main/portfolio%20image.png",
+    title: "RoofServices in UK for my client",
+    description: "RoofServices is a web application that provides a platform for users to find and hire roofing services in the UK. It allows users to search for services, view profiles, and book appointments for the consultancy as well as new roof installation. Providing the services in London of roof installation, pitch roof, flat roof, chimney installation, and roof repair.",
+    image: "img/1.png",  
     tags: [
       "React Js",
       "HTML5",
       "Tailwind CSS",
       "Javascript",
-     
     ],
     category: "web app",
-    github: "https://github.com/Muhammad005/My-Portfolio",
-    webapp: "https://github.com/Muhammad005",
   },
   {
     id: 9,
-    title: "SpendWise",
-    description:
-      " SpendWise is a web application designed to streamline expense management and enhance financial tracking system with real-time logging, secure authentication via Express.js, and MongoDB for managing expenses. Designed a responsive UI using Ant Design, ensuring seamless cross-device budgeting and tracking.",
-    image:
-      "https://raw.githubusercontent.com/Muhammad005/SpendWise/main/spendWise3.png",
+    title: "Cloud ERP Dashboard For Property Management",
+    description: "Application for property management, finance, stock management, rental, sales, and purchase management along with procurement management system. Furthermore, it has a complete accounting system with a complete dashboard for the admin and user. It has a complete user management system with role-based access control.",
+    image: "img/cloud.png",  // Updated path
     tags: [
       "React Js",
+      "Next Js",
+      "Redux",
       "MongoDb",
       "Node Js",
       "Express Js",
-      "Ant Designs", 
+      "Ant Designs",
       "Tailwind CSS",
       "Javascript",
-  
+      "Twilo API",
+      "API Integration",
     ],
     category: "web app",
-    github: "https://github.com/Muhammad005/SpendWise",
-    webapp: "https://github.com/Muhammad005/SpendWise",
   },
   {
     id: 0,
-    title: "Gemini Clone",
-    description:
-      "Developed a responsive Gemini platform clone using the Gemini API for real-time data processing, ensuring seamless user interaction. Leveraged React Hooks and Context API for efficient state management and a smoother user experience.",
-    image:
-      "https://raw.githubusercontent.com/Muhammad005/Gemini-Clone-Project/main/Screenshot%202024-11-02%20175452.png",
-    tags: ["React Js", "Javascript", "GeminiAPI", "CSS3"],
-    category: "web app",
-    github: "https://github.com/Muhammad005/Gemini-Clone-Project",
-    webapp: "https://github.com/Muhammad005/Gemini-Clone-Project",
+    title: "Modern Industry Textile Project",
+    description: "A software solution for managing the entire textile manufacturing process, from raw material procurement to finished product delivery. It includes modules for costing of actual and internal along with reporting and contract. Additonally there is an inventory management, production planning, quality control, and sales tracking. Contract section and reporting is also included as well as complete solution for tracking till production and transportation.",
+    image: "img/industy.jpeg",  // Updated path
+    tags: ["React Js", "Javascript", "Redux", "Node Js", "Express Js", "MongoDb", "Ant Designs", "Tailwind CSS","API Integration"],
+    category: "Web App",
   },
-  
 ];
-
