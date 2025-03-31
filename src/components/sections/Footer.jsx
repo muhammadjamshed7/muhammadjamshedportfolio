@@ -86,17 +86,16 @@ const Footer = () => {
       <FooterWrapper>
         <Logo>Muhammad Jamshed</Logo>
         <div className="flex flex-row gap-1">
-          <SocialMediaIcon href={Bio.linkedin} target="display">
+          <SocialMediaIcon href={Bio.linkedin} target="_blank">
             <LinkedInIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display">
-          <FaGithub/>
+          <SocialMediaIcon href={Bio.github} target="_blank">
+            <FaGithub />
           </SocialMediaIcon>
-    <SocialMediaIcon href={`mailto:${Bio.gmail}`}> 
-  <SiGmail />
-</SocialMediaIcon>
-      
-          </div>
+          <SocialMediaIcon href={`mailto:${Bio.gmail}`}>
+            <SiGmail />
+          </SocialMediaIcon>
+        </div>
         <Nav>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
@@ -104,8 +103,6 @@ const Footer = () => {
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
         </Nav>
-      
-      
         <Copyright>&copy; 2024 Muhammad Jamshed. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>

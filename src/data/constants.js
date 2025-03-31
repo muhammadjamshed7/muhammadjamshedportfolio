@@ -5,11 +5,10 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I'm a highly motivated and versatile individual with a strong aptitude for problem-solving and a deep commitment to continuous development. I enjoy tackling complex challenges, analyzing data, and developing effective solutions. I'm a firm believer in lifelong learning and actively pursue opportunities to expand my knowledge and skillset.",
+    " I am a Full Stack Developer,with a passion for creating dynamic and responsive web applications. I have experience in both frontend and backend development, and I am proficient in various programming languages and frameworks. I am always eager to learn new technologies and improve my skills.",
   github: "https://github.com/muhammadjamshed7",
   gmail: "jamshedmsd589@gmail.com",
-  resume:
-    "https://drive.google.com/file/d/1yJ3b6fvxnM-_1QjCk5x2R-uKIclehEAJ/view?usp=sharing",
+  resume:"https://drive.google.com/file/d/1yJ3b6fvxnM-_1QjCk5x2R-uKIclehEAJ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/muhammad-jamshed-%E2%9C%AA-7ab3b2198/",
 
 };
