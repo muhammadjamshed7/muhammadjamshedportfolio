@@ -1,15 +1,17 @@
 export const Bio = {
   name: "Muhammad Jamshed",
   roles: [
-    "Full Stack Developer",
+    "Software Engineer",
     "Programmer",
+    "Freelancer"
   ],
   description:
-    " I am a Full Stack Developer,with a passion for creating dynamic and responsive web applications. I have experience in both frontend and backend development, and I am proficient in various programming languages and frameworks. I am always eager to learn new technologies and improve my skills.",
+    "Beyond the code, I'm a Full Stack Developer with a relentless curiosity for what's next in web technology, building dynamic and responsive applications that not only meet today's needs but also anticipate tomorrow's possibilities.",
   github: "https://github.com/muhammadjamshed7",
   gmail: "jamshedmsd589@gmail.com",
   resume:"https://drive.google.com/file/d/1yJ3b6fvxnM-_1QjCk5x2R-uKIclehEAJ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/muhammad-jamshed-%E2%9C%AA-7ab3b2198/",
+  phone: "+92302 9015909",
 
 };
 

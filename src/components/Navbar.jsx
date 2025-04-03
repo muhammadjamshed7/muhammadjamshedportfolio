@@ -135,6 +135,68 @@ const MobileMenu = styled.ul`
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const theme = useTheme();
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleContactClick = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  const handlePhoneCall = () => {
+    window.location.href = `tel:${Bio.phone}`;
+    closeModal();
+  };
+
+  const handleWhatsApp = () => {
+    window.location.href = `https://wa.me/${Bio.phone.replace(
+      /[^0-9]/g,
+      ""
+    )}?text=Hi, I would like to get in touch with you.`;
+    closeModal();
+  };
+
+  const Modal = styled.div`
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  `;
+
+  const ModalContent = styled.div`
+    background: ${({ theme }) => theme.card_light};
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  `;
+
+  const ModalButton = styled.button`
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: ${({ theme }) => theme.text_primary};
+    background: ${({ theme }) => theme.primary};
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background: ${({ theme }) => theme.text_primary};
+      color: ${({ theme }) => theme.primary};
+    }
+  `;
+
   return (
     <Nav>
       <NavbarContainer>
@@ -187,10 +249,21 @@ const Navbar = () => {
         )}
 
         <ButtonContainer>
-          <GithubButton href={Bio.github} target="_Blank">
-            Github Profile
+          <GithubButton onClick={handleContactClick}>
+            +923029015909 Direct Consultancy
           </GithubButton>
         </ButtonContainer>
+
+        {isModalOpen && (
+          <Modal>
+            <ModalContent>
+              <h2>Contact Options</h2>
+              <ModalButton onClick={handlePhoneCall}>Direct Call</ModalButton>
+              <ModalButton onClick={handleWhatsApp}>WhatsApp Call or Text</ModalButton>
+              <ModalButton onClick={closeModal}>Close</ModalButton>
+            </ModalContent>
+          </Modal>
+        )}
       </NavbarContainer>
     </Nav>
   );

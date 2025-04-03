@@ -3,7 +3,8 @@ import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
 // import HeroImg from "../../images/Mee.jpeg";
-import HeroImg from "../../images/Jamshed_profile.jpg"
+// import HeroImg from "../../images/Jamshed_profile.jpg"
+import HeroImg from "../../images/j.png"
 import HeroBgAnimation from "../HeroBgAnimation";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -179,12 +180,17 @@ const ResumeButton = styled.a`
 `;
 
 const Img = styled.img`
-  border-radius: 50%;
+border-radius: 50%;
   width: 100%;
   height: 100%;
   max-width: 400px;
-  max-height: 400px;
-  border: 2px solid ${({ theme }) => theme.primary};
+  max-height: 500px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease-in-out;
+
+  &:hover {
+    border-color: ${({ theme }) => theme.primary};
+  }
 
   @media (max-width: 640px) {
     max-width: 280px;
@@ -251,7 +257,7 @@ const Hero = () => {
               </motion.div>
 
               <ResumeButton href={Bio.resume} target="_blank">
-                Check Resume
+                View Resume
               </ResumeButton>
             </HeroLeftContainer>
             <HeroRightContainer>
