@@ -323,4 +323,12 @@ export const projects = [
     tags: ["React Js", "Javascript", "Redux", "Node Js", "Express Js", "MongoDb", "Ant Designs", "Tailwind CSS","API Integration"],
     category: "Web App",
   },
+  {
+    id: 0,
+    title: "CRM for Mining Company",
+    description: " Detail will be shared on demand because of confidentiality of the project.",
+    image: "img/conf.webp",  // Updated path
+    tags: ["React Js", "Jquery", "Redux", "Node Js", "Express Js", "MongoDb", "MUI", "Tailwind CSS","Twilo API", "Node Mailer"],
+    category: "Web App",
+  },
 ];

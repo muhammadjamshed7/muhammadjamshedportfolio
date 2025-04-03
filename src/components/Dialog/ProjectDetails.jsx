@@ -182,6 +182,15 @@ const Button = styled.a`
 
 const ProjectDetails = ({ openModal, setOpenModal }) => {
   const project = openModal?.project;
+  const handleWhatsAppRedirect = () => {
+    const message = `Hello, I am interested in the project "${project?.title}". Could you please provide more details?`;
+    const encodedMessage = encodeURIComponent(message);
+    window.open(`https://wa.me/?text=${encodedMessage}`, "_blank");
+  };
+  const PhoneCallConculstation = () => {
+    window.open(`tel:+923029015909`, "_self");
+  };
+
   return (
     <Modal
       open={true}
@@ -203,7 +212,7 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
           <Date>{project.date}</Date>
           <Tags>
             {project?.tags.map((tag) => (
-              <Tag>{tag}</Tag>
+              <Tag key={tag}>{tag}</Tag>
             ))}
           </Tags>
           <Desc>{project?.description}</Desc>
@@ -211,8 +220,8 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
             <>
               <Label>Members</Label>
               <Members>
-                {project?.member.map((member) => (
-                  <Member>
+                {project?.member.map((member, index) => (
+                  <Member key={index}>
                     <MemberImage src={member.img} />
                     <MemberName>{member.name}</MemberName>
                     <a
@@ -235,11 +244,12 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
             </>
           )}
           <ButtonGroup>
-            <Button dull href={project?.github} target="new">
-              View Code
+            
+            <Button onClick={handleWhatsAppRedirect}>
+              Query on WhatsApp
             </Button>
-            <Button href={project?.webapp} target="new">
-              View Live App
+            <Button onClick={PhoneCallConculstation} >
+              Take Info Through Phone Call
             </Button>
           </ButtonGroup>
         </Wrapper>
