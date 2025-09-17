@@ -4,7 +4,7 @@ import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
 // import HeroImg from "../../images/Mee.jpeg";
 // import HeroImg from "../../images/Jamshed_profile.jpg"
-import HeroImg from "../../images/j.png"
+import HeroImg from "../../images/jimi.jpeg"
 import HeroBgAnimation from "../HeroBgAnimation";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -275,3 +275,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
